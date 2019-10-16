@@ -1,9 +1,8 @@
-# 订阅自动化测试
 from xml.dom import minidom
 import json, os, re, requests
-downloadFolder = "./下载/"
+downloadFolder = "./"
 jsonFolder = "./json/"
-token = "llkll"
+token = ""
 
 def displayList(*keyword, url="https://share.dmhy.org/topics/rss/rss.xml"):
 	rssurl = url + "?keyword="
