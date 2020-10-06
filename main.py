@@ -1,4 +1,4 @@
-!mkdir /root/downloads/json/
+#!mkdir /root/downloads/json/
 from xml.dom import minidom
 import json, os, re, requests
 downloadFolder = "/root/downloads"
