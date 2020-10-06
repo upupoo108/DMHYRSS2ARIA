@@ -1,8 +1,9 @@
+!mkdir /root/downloads/json/
 from xml.dom import minidom
 import json, os, re, requests
-downloadFolder = "./"
-jsonFolder = "./json/"
-token = ""
+downloadFolder = "/root/downloads"
+jsonFolder = "/root/downloads/json/"
+token = rpc
 
 def displayList(*keyword, url="https://share.dmhy.org/topics/rss/rss.xml"):
 	rssurl = url + "?keyword="
